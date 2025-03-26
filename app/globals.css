@@ -175,10 +175,10 @@
     @apply flex min-h-14 w-full items-center justify-center gap-1.5 rounded-md;
   }
   .btn-primary {
-    @apply w-fit !bg-primary-200 !text-dark-100 hover:!bg-primary-200/80 !rounded-full !font-bold px-5 cursor-pointer min-h-10;
+    @apply w-fit !bg-primary-200 !text-dark-100 hover:!bg-primary-200/80 !font-bold px-5 cursor-pointer min-h-10;
   }
   .btn-secondary {
-    @apply w-fit !bg-dark-200 !text-primary-200 hover:!bg-dark-200/80 !rounded-full !font-bold px-5 cursor-pointer min-h-10;
+    @apply w-fit !bg-dark-200 !text-primary-200 hover:!bg-dark-200/80 !font-bold px-5 cursor-pointer min-h-10;
   }
 
   .btn-upload {
@@ -216,7 +216,7 @@
   /* You can also add this outside the form class if needed */
 
   .call-view {
-    @apply flex sm:flex-row flex-col gap-10 items-center justify-between w-full;
+    @apply flex sm:flex-row flex-col gap-10 items-center justify-between w-full mb-6;
 
     h3 {
       @apply text-center text-primary-100 mt-5;
@@ -244,7 +244,7 @@
   }
 
   .transcript-border {
-    @apply border-gradient p-0.5 rounded-2xl w-full;
+    @apply border-gradient p-0.5 rounded-2xl w-full mb-6;
 
     .transcript {
       @apply dark-gradient rounded-2xl  min-h-12 px-5 py-3 flex items-center justify-center;
