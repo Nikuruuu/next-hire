@@ -216,7 +216,7 @@
   /* You can also add this outside the form class if needed */
 
   .call-view {
-    @apply flex sm:flex-row flex-col gap-10 items-center justify-between w-full;
+    @apply flex sm:flex-row flex-col gap-10 items-center justify-between w-full mb-6;
 
     h3 {
       @apply text-center text-primary-100 mt-5;
@@ -244,7 +244,7 @@
   }
 
   .transcript-border {
-    @apply border-gradient p-0.5 rounded-2xl w-full;
+    @apply border-gradient p-0.5 rounded-2xl w-full mb-6;
 
     .transcript {
       @apply dark-gradient rounded-2xl  min-h-12 px-5 py-3 flex items-center justify-center;
